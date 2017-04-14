@@ -1,0 +1,23 @@
+package Array;
+
+public class UseArray {
+
+	public static void main(String[] args) {
+		int[]numberList = new int[7];
+				numberList[0] = 10;
+				numberList[1] = 20;
+				numberList[2] = 30;
+				numberList[3] = 40;
+				numberList[4] = 50;
+				numberList[5] = 60;
+				numberList[6] = 70;
+				
+				
+				for (int i=0; i<numberList.length; i++)
+					System.out.println(numberList[i]);
+		
+		
+
+	}
+
+}
